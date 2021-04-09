@@ -3,12 +3,19 @@ html, body {
   padding: 0;
   margin: 0;
   height: 100vh;
-  font-size: 25px;
+  font-size: 18px;
+ 
 }
 *{
   box-sizing: inherit;
 }
 .container {
+  
   background-color: #f0f0f0;
-  padding: 3% max(15%, 5rem);
+  padding: 3% max(15%, 2rem);
+}
+@media (min-width: 768px) {
+  body {
+    font-size: 25px;
+  }
 }
