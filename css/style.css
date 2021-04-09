@@ -1,0 +1,14 @@
+html, body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  font-size: 25px;
+}
+*{
+  box-sizing: inherit;
+}
+.container {
+  background-color: #f0f0f0;
+  padding: 3% max(15%, 5rem);
+}
